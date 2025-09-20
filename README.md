@@ -1,10 +1,8 @@
-# Sentence Transformers Basic Example 🚀
+# Sentence Transformers Example Using Jupyter and UV
 
-A simple example to get started with sentence transformers in Jupyter Lab.
+A simple example to get started with sentence transformers in Jupyter Lab using `uv`
 
-## Quick Setup with uv ⚡
-
-uv makes Python dependency management fast and simple. It automatically manages virtual environments and dependency resolution:
+## Quick Setup
 
 ```bash
 # 1. Install dependencies (automatically creates .venv)
@@ -24,29 +22,12 @@ uv run jupyter lab
 - Look at the top-right corner and click on the kernel selector if needed
 - Then run the cells!
 
-## Why uv? 🚀
 
-- **10-100x faster** than pip for package installation
-- **Automatic virtual environment management** - no manual activation needed
-- **Deterministic dependency resolution** - reproducible builds
-- **Modern Python project management** - follows current best practices
-
-### Installing uv
-
-```bash
-# macOS/Linux/Windows
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Or using Homebrew (macOS)
-brew install uv
-```
-
-## What you'll learn
+## The example showcases
 
 - How to load a pre-trained sentence transformer model
 - How to convert sentences into numerical embeddings
 - How to calculate semantic similarity between sentences
-- See the magic of semantic understanding in action!
 
 ## Files
 
@@ -55,11 +36,3 @@ brew install uv
 - `README.md` - This file
 - `.venv/` - Virtual environment (created automatically by uv)
 
-## Next Steps
-
-Once you've run through the basic example, you can:
-- Experiment with different sentences
-- Try other models like `all-mpnet-base-v2`
-- Build your own semantic search system
-
-Happy coding! 🎉
